@@ -1,5 +1,3 @@
-# Week2
+# Premier League
 
-Código de Week1 del bootcamp
-
-- JS
+Premier League Oficial Fans Page
