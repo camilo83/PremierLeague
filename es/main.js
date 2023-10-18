@@ -1,4 +1,7 @@
-export const sumNumber = (a, b) => {
-  const sum = a + b;
-  return sum;
-};
+export function strictEquals(a, b) {
+  if (Object.is(a, b)) {
+    return true;
+  }
+
+  return false;
+}
