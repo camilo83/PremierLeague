@@ -105,3 +105,46 @@ body footer .personal_data img {
 body footer .personal_data p {
   font-size: 0.8rem;
 }
+body main {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+body main table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+body main table thead {
+  background-color: #37003c;
+  border: 3px solid white;
+  color: #fff;
+}
+body main table thead th {
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+  width: 15rem;
+}
+body main table tbody tr {
+  border: 1px solid black;
+  align-items: center;
+}
+body main table tbody tr th {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0;
+}
+body main table tbody tr th img {
+  width: 2rem;
+}
+body main table tbody tr th:hover {
+  font-size: 2rem;
+}
+body main table tbody tr td {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid black;
+}

@@ -106,4 +106,50 @@ body {
       }
     }
   }
+
+  main {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid black;
+      thead {
+        background-color: #37003c;
+        border: 3px solid white;
+        color: #fff;
+        th {
+          font-size: 1.5rem;
+          padding: 10px;
+          text-align: center;
+          width: 15rem;
+        }
+      }
+      tbody {
+        tr {
+          border: 1px solid black;
+          align-items: center;
+          th {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0;
+            img {
+              width: 2rem;
+            }
+            &:hover {
+              font-size: 2rem;
+            }
+          }
+          td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid black;
+          }
+        }
+      }
+    }
+  }
 }
